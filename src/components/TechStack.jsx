@@ -59,44 +59,44 @@ export default function TechStack() {
             <div className="glass-panel p-6 sm:p-8 rounded-2xl border border-slate-800 space-y-6 bg-slate-900/80">
               
               <h3 className="text-xl font-bold text-white pb-3 border-b border-slate-800">
-                Why Work With Me?
+                Why Partner With Me?
               </h3>
 
-              {/* Communication Style */}
+              {/* Backend & API Expertise */}
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-400 shrink-0">
                   <MessageCircle className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-white mb-1">Clear & Direct Communication</h4>
+                  <h4 className="text-sm font-bold text-white mb-1">Backend & API Expertise</h4>
                   <p className="text-xs text-slate-300 leading-relaxed">
-                    I speak plain English — not jargon. You receive daily or weekly updates with video screen recordings, transparent milestone tracking, and rapid email responses guaranteed within 24 hours.
+                    Take on complex functional requirements, custom Node APIs, third-party integrations, and automated workflows with total confidence — expanding what you can offer clients.
                   </p>
                 </div>
               </div>
 
-              {/* Turnaround Speed */}
+              {/* White-Label & Agency Ready */}
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 shrink-0">
                   <Clock className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-white mb-1">Rapid Turnaround Speed</h4>
+                  <h4 className="text-sm font-bold text-white mb-1">White-Label & Agency Ready</h4>
                   <p className="text-xs text-slate-300 leading-relaxed">
-                    Most freelancer portfolio sites ship in 7–10 days. Business web platforms ship in 2–4 weeks. Fast iteration without compromising on clean code or responsive polish.
+                    Work behind the scenes as your silent technical partner or alongside your team under your agency brand. Complete confidentiality and zero client friction guaranteed.
                   </p>
                 </div>
               </div>
 
-              {/* Reliability & Quality */}
+              {/* Rapid & Reliable Delivery */}
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-xl bg-indigo-500/10 text-indigo-400 shrink-0">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-white mb-1">Rock-Solid Reliability</h4>
+                  <h4 className="text-sm font-bold text-white mb-1">Rapid & Reliable Delivery</h4>
                   <p className="text-xs text-slate-300 leading-relaxed">
-                    100% deadline compliance. Code tested across iPhone, Android, and Desktop screens with full SEO meta tags and 30-day post-launch warranty on bug fixes.
+                    Avoid expensive dev hires and project delays. Fast turnarounds, clean modular code, transparent milestone updates, and rapid communication guaranteed within 24 hours.
                   </p>
                 </div>
               </div>

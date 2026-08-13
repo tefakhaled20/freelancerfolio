@@ -23,7 +23,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-400 max-w-sm leading-relaxed">
-              Full-stack web engineering studio building speed-optimized, high-converting websites for freelancers and custom platforms for growing businesses.
+              Software developer & technical partner for freelancers and digital/creative agencies. Helping you build, improve, automate, and maintain web solutions for yourselves and your clients.
             </p>
             
             {/* Trust Badge Line */}

@@ -8,35 +8,35 @@ export default function Testimonials() {
     {
       id: 1,
       name: 'Sarah Jenkins',
-      role: 'Independent Brand Strategist',
-      category: 'Freelancer Client',
+      role: 'Independent UI/UX Designer',
+      category: 'Freelance Partner',
       typeIcon: User,
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
       rating: 5,
-      quote: 'Delivered my brand portfolio site in just 6 days! The case study layout instantly elevated my perceived value — I landed two high-budget client retainer contracts within 3 weeks of launching.',
-      metrics: '3.4x Increase in Direct Leads',
+      quote: 'Having a dedicated developer handle custom Node APIs and backend logic allowed me to take on a $12k client project I would have normally turned down. Delivered 100% on time behind the scenes!',
+      metrics: '+$12k Project Won / White-Label',
     },
     {
       id: 2,
       name: 'Marcus Vance',
-      role: 'Operations Director, Apex Fleet Logistics',
-      category: 'Business Client',
+      role: 'Director, Apex Digital Agency',
+      category: 'Agency Partner',
       typeIcon: Building,
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
       rating: 5,
-      quote: 'Our custom dispatch booking platform was built flawlessly. Our staff handles order entries 70% faster now and zero orders were dropped during peak season. Incredible engineering speed and communication.',
-      metrics: '70% Faster Booking Processing',
+      quote: "Expanded our agency's web application offerings without the stress or overhead of hiring full-time developers. White-label execution was completely seamless for our client team.",
+      metrics: 'Expanded Agency Scope / 0 Dev Hiring',
     },
     {
       id: 3,
       name: 'Elena Rostova',
-      role: 'Founder, Verve Beauty & Salon',
-      category: 'Business Client',
+      role: 'Founder, Verve Creative Studio',
+      category: 'Creative Studio Lead',
       typeIcon: Building,
       avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
       rating: 5,
-      quote: 'Our previous website took 6 seconds to load and cost us customers. The new React app built here loads under 1 second and salon appointment bookings surged by 45% in the first month!',
-      metrics: '98 Lighthouse Score / +45% Bookings',
+      quote: "Fixed critical backend bugs on our client's platform and connected their CRM and payment webhooks in under 4 days. Incredible communication and rock-solid technical reliability!",
+      metrics: '4-Day API Mesh & Bug Fix SLA',
     },
   ];
 
@@ -57,13 +57,13 @@ export default function Testimonials() {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-3">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Client Feedback</span>
+              <span>Partner Feedback</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-              What Freelancers & Businesses Say
+              What Freelancers & Agencies Say
             </h2>
             <p className="text-slate-400 text-base mt-2 max-w-xl">
-              Real feedback from real client projects. Verified speed, reliability, and code quality.
+              Real feedback from freelance collaborators and digital agencies. Verified speed, reliability, and code quality.
             </p>
           </div>
 

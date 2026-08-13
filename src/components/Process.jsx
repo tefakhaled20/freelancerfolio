@@ -5,35 +5,35 @@ export default function Process() {
   const steps = [
     {
       number: '01',
-      title: 'Discovery & Scope',
+      title: 'Requirements & Scope',
       icon: Search,
       badge: 'Step 1',
-      desc: 'We map out your audience goals, key features, wireframes, and technical requirements in a 15-min call.',
-      deliverable: 'Clear timeline & flat project quote',
+      desc: 'We map out your client requirements, design handoff details, backend needs, or white-label preferences.',
+      deliverable: 'Flat quote & clear technical scope',
     },
     {
       number: '02',
-      title: 'Design & Prototype',
+      title: 'Technical Architecture',
       icon: Palette,
       badge: 'Step 2',
-      desc: 'I create modern UI/UX mockups with responsive layouts, curated color palettes, and clear call-to-actions.',
-      deliverable: 'Interactive visual design approval',
+      desc: 'I architect custom database schemas, REST APIs, third-party integrations, and workflow logic for the build.',
+      deliverable: 'Approved technical plan & API spec',
     },
     {
       number: '03',
-      title: 'Build & Optimize',
+      title: 'Build & Integration',
       icon: Code,
       badge: 'Step 3',
-      desc: 'Clean modular React code development with Tailwind CSS, speed tuning, mobile testing, and backend APIs.',
-      deliverable: 'Staging preview link for your review',
+      desc: 'Modular full-stack engineering, API wiring, bug fixing, automated workflows, and speed optimization.',
+      deliverable: 'Staging preview link for team review',
     },
     {
       number: '04',
-      title: 'Launch & Handover',
+      title: 'Launch & Handoff',
       icon: Rocket,
       badge: 'Step 4',
-      desc: 'Domain setup, SSL configuration, Google indexing, training video, and 30 days of included post-launch support.',
-      deliverable: 'Live production site & source code',
+      desc: 'White-label code delivery, domain setup, video walkthrough documentation, and ongoing technical support.',
+      deliverable: 'Client-ready build & source code',
     },
   ];
 
@@ -45,13 +45,13 @@ export default function Process() {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Structured Workflow</span>
+            <span>Structured Partner Workflow</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Simple 4-Step Process From Idea to Launch
+            Seamless 4-Step Technical Execution
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
-            No endless back-and-forth. A clear, transparent road map engineered for quick turnaround and zero friction.
+            A reliable engineering process built for quick turnaround, transparent milestones, and zero client friction.
           </p>
         </div>
 
@@ -103,10 +103,10 @@ export default function Process() {
           </div>
           <div>
             <h4 className="text-sm font-bold text-white mb-1">
-              Close Collaboration Guarantee
+              Flexible Behind-the-Scenes Partner
             </h4>
             <p className="text-xs text-slate-300 leading-relaxed">
-              You will work directly with me — the developer building your site. No account managers, no game of phone tag. Enjoy async Loom video progress updates, direct Slack or email access, and honest turnaround commitments.
+              Work seamlessly behind the scenes as your white-label developer or alongside your team under your agency brand. Enjoy async video progress updates, direct Slack or email access, and honest turnaround commitments.
             </p>
           </div>
         </div>

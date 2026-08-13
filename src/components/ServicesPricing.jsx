@@ -2,96 +2,96 @@ import React, { useState } from 'react';
 import { Check, Sparkles, User, Building, ArrowRight, Clock, ShieldCheck, Zap } from 'lucide-react';
 
 export default function ServicesPricing({ onBookCall }) {
-  const [track, setTrack] = useState('freelancer'); // 'freelancer' | 'business'
+  const [track, setTrack] = useState('freelancer'); // 'freelancer' | 'agency'
 
   const freelancerPackages = [
     {
-      name: 'Freelancer Portfolio Site',
-      tagline: 'Ideal for independent creators, designers & devs looking to showcase work cleanly.',
+      name: 'Backend & API Integration',
+      tagline: 'Ideal for designers & creative freelancers needing backend logic, API connections, or bug fixes for client projects.',
       price: '$750',
       period: 'starting price',
-      turnaround: '5 - 7 Days',
+      turnaround: '3 - 5 Days',
       popular: false,
       features: [
-        'Single-page mobile responsive layout',
-        'Custom interactive project case study section',
-        'Direct Calendly / WhatsApp contact integration',
-        'SEO meta setup & speed optimization (95+ score)',
-        'Domain connection & SSL setup',
-        '1 Month post-launch support',
+        'Custom REST API & database schema setup',
+        'Third-party API integrations (Stripe, CRMs, Webhooks)',
+        'Authentication & user management logic',
+        'Bug fixing & performance tuning for existing builds',
+        'White-label code delivery & technical docs',
+        '30-Day post-launch bug fix warranty',
       ],
-      ctaText: 'Get Started with Portfolio',
+      ctaText: 'Get Backend Support',
     },
     {
-      name: 'Personal Brand Platform',
-      tagline: 'Complete digital authority hub with blog/notes, client portal, and lead magnet funnels.',
+      name: 'Full Technical Co-Development',
+      tagline: 'Complete full-stack engineering for client builds that exceed traditional frontend or no-code limits.',
       price: '$1,450',
       period: 'starting price',
-      turnaround: '10 - 14 Days',
+      turnaround: '7 - 10 Days',
       popular: true,
       features: [
-        'Multi-page React platform with smooth transitions',
-        'Custom case studies with metrics & testimonial cards',
-        'Newsletter / Lead magnet email capture funnel',
-        'Interactive service pricing & inquiry builder',
-        'CMS / Markdown support for regular posts',
-        '3 Months priority maintenance',
+        'Full React + Node.js custom web application build',
+        'Custom client portal or interactive app functionality',
+        'Automated workflow & multi-platform connection',
+        'Speed & SEO-optimized production architecture',
+        'Behind-the-scenes white-label developer option',
+        '3 Months priority technical support & updates',
       ],
-      ctaText: 'Build Brand Platform',
+      ctaText: 'Co-Develop a Project',
     },
   ];
 
-  const businessPackages = [
+  const agencyPackages = [
     {
-      name: 'Custom Business Site',
-      tagline: 'High-converting web presence for agencies, clinics, law firms & local service providers.',
+      name: 'White-Label Client Build',
+      tagline: 'Turnkey technical development for agency websites, web applications, and client platforms.',
       price: '$1,850',
       period: 'starting price',
       turnaround: '2 Weeks',
       popular: false,
       features: [
-        'Multi-page custom design & responsive layout',
-        'Interactive service catalog & team directory',
-        'Lead generation forms with instant email notifications',
-        'Google Business & Maps API integrations',
-        'Speed, SEO & Security hardening included',
-        'Full handover training & video walkthrough',
+        'Full-stack web application built to agency Figma specs',
+        'Custom backend logic, database architecture & APIs',
+        'Multi-platform integrations & workflow automation',
+        'Thorough QA testing across mobile, tablet & desktop',
+        'White-label code handoff with video walkthrough',
+        '1 Month post-launch maintenance included',
       ],
-      ctaText: 'Get Business Quote',
+      ctaText: 'Order White-Label Build',
     },
     {
-      name: 'E-Commerce / Booking Hub',
-      tagline: 'Automated client portal with online scheduling, customer accounts & Stripe checkout.',
+      name: 'Custom Backend & Automation Hub',
+      tagline: 'Advanced web platforms, client portals, and automated operations hubs for agency clients.',
       price: '$2,950',
       period: 'starting price',
       turnaround: '3 - 4 Weeks',
       popular: true,
       features: [
-        'Full React + Node.js custom booking / shopping engine',
-        'Stripe / PayPal payment gateway integration',
-        'Customer dashboard for order & appointment management',
-        'Admin control panel for staff & inventory management',
-        'Automated email receipts & calendar synching',
-        '3 Months complete maintenance & updates',
+        'Custom client portal, SaaS MVP, or internal dashboard',
+        'Complex API mesh (Stripe, HubSpot, Supabase, webhooks)',
+        'Automated operations & repetitive workflow reduction',
+        'Security hardening, database schemas & admin controls',
+        'Dedicated technical documentation & team training',
+        '3 Months priority maintenance & SLA',
       ],
-      ctaText: 'Build Booking Hub',
+      ctaText: 'Build Automation Hub',
     },
     {
-      name: 'Ongoing Maintenance & Growth',
-      tagline: 'Dedicated monthly engineering support, security updates, and regular feature tweaks.',
-      price: '$250',
+      name: 'Dedicated Tech Partner Retainer',
+      tagline: 'On-call engineering capacity, code updates, urgent bug fixes, and technical support for your agency.',
+      price: '$450',
       period: 'per month',
       turnaround: 'Continuous Support',
       popular: false,
       features: [
-        'Monthly backups & continuous uptime monitoring',
-        'Security patches & package updates',
-        'Up to 4 hours of small feature tweaks per month',
+        'Monthly developer hours dedicated to agency client accounts',
+        'Urgent bug fixing & rapid technical troubleshooting',
+        'Platform & API maintenance across active agency clients',
         'Priority 4-hour SLA response for critical issues',
-        'Monthly performance & analytics report',
-        'Cancel anytime with no lock-in contracts',
+        'Direct integration into agency Slack & management tools',
+        'Flexible month-to-month commitment with zero contracts',
       ],
-      ctaText: 'Subscribe to Maintenance',
+      ctaText: 'Subscribe to Retainer',
     },
   ];
 
@@ -103,13 +103,13 @@ export default function ServicesPricing({ onBookCall }) {
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Transparent Pricing & Scope</span>
+            <span>Transparent Partner Scope</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Services & Transparent Packages
+            Services & Partnership Packages
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
-            No hidden fees. Every project includes clean code, fast load speeds, and hands-on delivery.
+            Fair project rates and retainer options. Clean code, white-label delivery, and dependable developer support.
           </p>
 
           {/* Pricing Track Toggle */}
@@ -123,18 +123,18 @@ export default function ServicesPricing({ onBookCall }) {
               }`}
             >
               <User className="w-4 h-4" />
-              <span>Freelancer Packages</span>
+              <span>Freelancer Partner Track</span>
             </button>
             <button
-              onClick={() => setTrack('business')}
+              onClick={() => setTrack('agency')}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
-                track === 'business'
+                track === 'agency'
                   ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
               <Building className="w-4 h-4" />
-              <span>Business Packages</span>
+              <span>Agency Partner Track</span>
             </button>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function ServicesPricing({ onBookCall }) {
           track === 'freelancer' ? 'md:grid-cols-2 max-w-4xl' : 'md:grid-cols-3'
         } mx-auto gap-8`}>
           
-          {(track === 'freelancer' ? freelancerPackages : businessPackages).map((pkg, idx) => (
+          {(track === 'freelancer' ? freelancerPackages : agencyPackages).map((pkg, idx) => (
             <div
               key={idx}
               className={`glass-panel glass-panel-hover rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative border ${

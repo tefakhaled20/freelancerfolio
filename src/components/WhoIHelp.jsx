@@ -10,13 +10,13 @@ export default function WhoIHelp({ onBookCall }) {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Targeted Expertise</span>
+            <span>Technical Partner Focus</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Tailored Web Solutions for <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Two Audiences</span>
+            Engineering Support for <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Freelancers & Agencies</span>
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
-            Whether you're an independent creator building a high-impact personal brand or a business scaling online operations, I deliver custom solutions built for results.
+            Instead of managing client projects alone, leverage a dedicated software developer to build, improve, automate, and maintain technical solutions for you and your clients.
           </p>
         </div>
 
@@ -33,26 +33,26 @@ export default function WhoIHelp({ onBookCall }) {
                   <User className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">For Freelancers</h3>
-                  <p className="text-xs text-slate-400">Designers, Consultants, Writers & Developers</p>
+                  <h3 className="text-xl font-bold text-white">For Creative Freelancers</h3>
+                  <p className="text-xs text-slate-400">Web Designers/Devs, UI/UX, Motion Designers & Marketers</p>
                 </div>
               </div>
               <span className="px-3 py-1 rounded-full bg-slate-800 text-emerald-300 text-xs font-mono font-medium">
-                Personal Branding
+                Solo Partner
               </span>
             </div>
 
             <p className="text-slate-300 text-sm mb-6 leading-relaxed">
-              Portfolio & personal brand sites designed to highlight your work, establish high authority, and convert casual visitors into high-paying client inquiries.
+              Take on high-budget projects requiring complex backend development, APIs, or advanced functionality without turning clients away or spending weeks learning code.
             </p>
 
             {/* Feature List */}
             <ul className="space-y-3 mb-8">
               {[
-                { title: 'Case Study Showcases', desc: 'Present your past projects with rich narrative layouts.' },
-                { title: 'Direct Booking Funnels', desc: 'Seamlessly integrate Calendly, SavvyCal, or custom booking forms.' },
-                { title: 'Lightning-Fast Load Speeds', desc: 'Score 95+ on Google Lighthouse for maximum SEO and retention.' },
-                { title: 'Clear Value Messaging', desc: 'Structured layouts designed to convert prospects immediately.' },
+                { title: 'Backend & Advanced Logic', desc: 'Add custom Node backends, database schemas, auth, and complex logic.' },
+                { title: 'API & Platform Integration', desc: 'Seamlessly connect Stripe, CRMs, webhooks, and third-party tools.' },
+                { title: 'Bug Fixing & Project Rescue', desc: 'Fix tricky code bugs and improve existing client websites.' },
+                { title: 'White-Label Collaboration', desc: 'Work behind the scenes as your technical partner under your brand.' },
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-sm">
                   <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
@@ -65,19 +65,19 @@ export default function WhoIHelp({ onBookCall }) {
             </ul>
 
             <div className="pt-4 border-t border-slate-800 flex items-center justify-between">
-              <span className="text-xs text-slate-400 font-mono">Turnaround: 7 to 14 days</span>
+              <span className="text-xs text-slate-400 font-mono">Behind-the-Scenes Partner</span>
               <button
                 onClick={onBookCall}
                 className="inline-flex items-center gap-2 text-xs font-bold text-emerald-400 hover:text-emerald-300 group-hover:translate-x-1 transition-all"
               >
-                <span>Build Freelancer Site</span>
+                <span>Partner on a Project</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
 
           </div>
 
-          {/* Column 2: For Businesses */}
+          {/* Column 2: For Agencies */}
           <div className="glass-panel rounded-2xl p-6 sm:p-8 relative overflow-hidden group hover:border-cyan-500/40 transition-all">
             <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/5 rounded-bl-full pointer-events-none group-hover:bg-cyan-500/10 transition-colors"></div>
 
@@ -87,26 +87,26 @@ export default function WhoIHelp({ onBookCall }) {
                   <Building className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">For Businesses</h3>
-                  <p className="text-xs text-slate-400">Agencies, Startups, Service Providers & Retail</p>
+                  <h3 className="text-xl font-bold text-white">For Digital & Creative Agencies</h3>
+                  <p className="text-xs text-slate-400">Web, Marketing & Design Studios</p>
                 </div>
               </div>
               <span className="px-3 py-1 rounded-full bg-slate-800 text-cyan-300 text-xs font-mono font-medium">
-                Business Systems
+                Agency Extension
               </span>
             </div>
 
             <p className="text-slate-300 text-sm mb-6 leading-relaxed">
-              Custom websites, online booking & ordering portals, and admin management dashboards built specifically to integrate into your existing daily business workflow.
+              Expand your agency's service offerings and technical capacity instantly without the high overhead and risk of hiring full-time software developers.
             </p>
 
             {/* Feature List */}
             <ul className="space-y-3 mb-8">
               {[
-                { title: 'Custom Web Apps & Dashboards', desc: 'Track clients, orders, inventory, or internal tasks.' },
-                { title: 'Online Ordering & Booking Engines', desc: 'Allow customers to pay, schedule, and request services seamlessly.' },
-                { title: 'Modern API & CRM Integrations', desc: 'Connect Stripe, HubSpot, Supabase, Node APIs, and more.' },
-                { title: 'Full Mobile & Desktop Responsiveness', desc: 'Perfect user experience on mobile phones, tablets, and desktops.' },
+                { title: 'Full Client Web Apps & Sites', desc: 'Custom frontend and backend web applications built to your specs.' },
+                { title: 'Workflow & Tool Automation', desc: 'Automate repetitive workflows and connect client platforms.' },
+                { title: 'Reliable Technical Coverage', desc: 'Dedicated technical support when client projects become complex.' },
+                { title: 'Scalable On-Demand Capacity', desc: 'White-label development partner for individual builds or retainers.' },
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-sm">
                   <CheckCircle2 className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
@@ -119,12 +119,12 @@ export default function WhoIHelp({ onBookCall }) {
             </ul>
 
             <div className="pt-4 border-t border-slate-800 flex items-center justify-between">
-              <span className="text-xs text-slate-400 font-mono">Turnaround: 2 to 4 weeks</span>
+              <span className="text-xs text-slate-400 font-mono">White-Label Engineering</span>
               <button
                 onClick={onBookCall}
                 className="inline-flex items-center gap-2 text-xs font-bold text-cyan-400 hover:text-cyan-300 group-hover:translate-x-1 transition-all"
               >
-                <span>Build Business Solution</span>
+                <span>Expand Agency Offerings</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>

@@ -116,7 +116,7 @@ export default function BookingModal({ isOpen, onClose }) {
                 <label className="block text-xs text-slate-300 font-medium mb-1">What are you building? (Optional)</label>
                 <textarea
                   rows="2"
-                  placeholder="E.g., Freelancer portfolio site or SaaS booking system..."
+                  placeholder="E.g., Client web app, custom backend API, or white-label build..."
                   value={formData.note}
                   onChange={(e) => setFormData({ ...formData, note: e.target.value })}
                   className="w-full p-3 rounded-xl bg-slate-950 border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-emerald-500 resize-none"

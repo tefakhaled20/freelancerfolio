@@ -8,45 +8,45 @@ export default function Portfolio() {
     {
       id: 'proj-1',
       category: 'freelancers',
-      title: 'Alex Rivera — Senior UX Consultant Portfolio',
-      audienceTag: 'Freelancer Site',
-      type: 'Personal Brand & Case Study Platform',
+      title: 'Nexus UI/UX Studio — Freelancer Co-Build',
+      audienceTag: 'Freelancer Partner',
+      type: 'Custom Backend & API Development',
       imageBg: 'from-emerald-900/40 to-slate-900',
-      mockupHeader: 'alexrivera.design',
-      problem: 'Struggled to convey complex UX strategy process to high-budget enterprise clients.',
-      solution: 'Designed an interactive case study layout with interactive component previews and Calendly integration.',
-      result: '3.4x increase in direct client inquiry conversion and 2 enterprise retainer contracts signed within 30 days.',
-      tech: ['React', 'Tailwind CSS', 'Vite', 'Lucide React', 'Framer Motion'],
+      mockupHeader: 'nexusstudio.design / backend-core',
+      problem: 'Freelance UI designer landed a $12k client project requiring complex Node.js backend logic and authentication beyond their stack.',
+      solution: 'Worked behind the scenes as technical developer, building secure REST APIs, database schemas, and Stripe payment integration.',
+      result: 'Designer shipped 100% on schedule under their brand and secured an ongoing $1,500/mo client retainer.',
+      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe API'],
       liveUrl: 'https://example.com/freelancer-demo',
       githubUrl: 'https://github.com/example/freelancer-portfolio',
     },
     {
       id: 'proj-2',
-      category: 'businesses',
-      title: 'Aura Logistics — Dispatch & Booking Hub',
-      audienceTag: 'Business Web App',
-      type: 'Custom Web Platform & Admin Dashboard',
+      category: 'agencies',
+      title: 'Kreativ Digital — Agency White-Label Web Portal',
+      audienceTag: 'Agency White-Label',
+      type: 'Custom Client Portal & Admin Dashboard',
       imageBg: 'from-cyan-900/40 to-slate-900',
-      mockupHeader: 'portal.auralogistics.com',
-      problem: 'Manual email booking caused dispatch delays and lost customer orders during peak hours.',
-      solution: 'Built a full-stack automated booking system with real-time tracking, customer portal, and admin dashboard.',
-      result: '70% reduction in booking processing time and zero missed client orders during Q4 peak season.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+      mockupHeader: 'portal.kreativdigital.com',
+      problem: 'Digital marketing agency needed to deliver a custom client portal for an enterprise account, but lacked internal dev bandwidth.',
+      solution: 'Engineered a white-label React + Node dashboard integrating Stripe and HubSpot CRM APIs with role-based access control.',
+      result: 'Agency expanded their service offerings and increased client account lifetime value by 2.5x without hiring full-time devs.',
+      tech: ['React', 'Node.js', 'HubSpot API', 'Tailwind CSS', 'JWT Auth'],
       liveUrl: 'https://example.com/business-demo',
       githubUrl: 'https://github.com/example/business-portal',
     },
     {
       id: 'proj-3',
-      category: 'businesses',
-      title: 'Verve Artisan — E-Commerce & Service Booking',
-      audienceTag: 'Business Platform',
-      type: 'E-Commerce & Appointment Engine',
+      category: 'agencies',
+      title: 'Verve Studio — Multi-Tool API & Automation Mesh',
+      audienceTag: 'Agency Partnership',
+      type: 'API Integration & Workflow Automation',
       imageBg: 'from-indigo-900/40 to-slate-900',
-      mockupHeader: 'verveartisan.co',
-      problem: 'Legacy WordPress site was slow (6s load) and disconnected from salon appointment scheduling.',
-      solution: 'Re-architected site with lightweight React frontend, custom booking calendar, and instant Stripe checkout.',
-      result: 'Lighthouse speed score boosted from 42 to 98, driving a 45% lift in monthly online service bookings.',
-      tech: ['React', 'Node.js', 'Tailwind CSS', 'Stripe API', 'Express'],
+      mockupHeader: 'vervestudio.co / api-mesh',
+      problem: "Design agency's client lost 15+ hours weekly to manual data transfers between booking forms, payments, and CRM platforms.",
+      solution: 'Built custom webhook integrations and an automated Node.js API bridge connecting payments, calendar sync, and CRM leads.',
+      result: 'Eliminated 90% of manual data entry errors and boosted client appointment booking speed by 45%.',
+      tech: ['Node.js', 'Webhooks', 'REST APIs', 'Stripe', 'Express'],
       liveUrl: 'https://example.com/ecom-demo',
       githubUrl: 'https://github.com/example/verve-artisan',
     },
@@ -65,13 +65,13 @@ export default function Portfolio() {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-3">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Proven Results</span>
+              <span>Proven Technical Delivery</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-              Featured Case Studies & Work
+              Featured Partnerships & Builds
             </h2>
             <p className="text-slate-400 text-base mt-2 max-w-xl">
-              Explore how custom web engineering solves real problems for freelancers and business owners alike.
+              See how software engineering, custom backends, and workflow automations solve complex challenges for freelancers and agencies.
             </p>
           </div>
 
@@ -95,17 +95,17 @@ export default function Portfolio() {
                   : 'text-slate-400 hover:text-white'
               }`}
             >
-              Freelancer Sites
+              Freelancer Co-Builds
             </button>
             <button
-              onClick={() => setActiveFilter('businesses')}
+              onClick={() => setActiveFilter('agencies')}
               className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
-                activeFilter === 'businesses' 
+                activeFilter === 'agencies' 
                   ? 'bg-emerald-500 text-slate-950 shadow-md' 
                   : 'text-slate-400 hover:text-white'
               }`}
             >
-              Business Tools
+              Agency Builds
             </button>
           </div>
         </div>

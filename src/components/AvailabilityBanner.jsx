@@ -15,13 +15,13 @@ export default function AvailabilityBanner({ onBookCall }) {
             </div>
             <div>
               <div className="text-sm font-bold text-white flex items-center gap-2">
-                <span>Currently open for 1-2 new projects this month</span>
+                <span>Currently accepting 1-2 new freelancer or agency technical partnerships</span>
                 <span className="hidden md:inline font-mono text-xs px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300">
-                  Accepting Q3 Client Slots
+                  Accepting Q3 Partner Slots
                 </span>
               </div>
               <p className="text-xs text-slate-300">
-                Reserve your development slot early to guarantee rapid turnaround.
+                Reserve developer bandwidth early to expand your capabilities or build your next client project.
               </p>
             </div>
           </div>
