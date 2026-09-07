@@ -8,12 +8,12 @@ export default function Hero({ onBookCall }) {
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-gradient-to-tr from-emerald-500/15 via-cyan-500/10 to-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Text & CTAs */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            
+
             {/* Status Pill */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900/90 border border-slate-800 text-xs text-slate-300 backdrop-blur-md shadow-md">
               <span className="flex h-2 w-2 relative">
@@ -27,12 +27,12 @@ export default function Hero({ onBookCall }) {
 
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
-              Technical partner for <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">freelancers</span> and <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400">digital agencies</span>.
+              Technical partner for <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">freelancers</span> and <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400">businesses</span>.
             </h1>
 
             {/* Subheadline Clarifying the Positioning */}
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
-              I help creative freelancers and agencies turn ambitious ideas and client requirements into working web solutions — from custom backend APIs and automated workflows to full client web applications.
+              I help creative freelancers and businesses turn ambitious ideas and client requirements into working web solutions from custom backend APIs and automated workflows to full client web applications.
             </p>
 
             {/* Two CTA Buttons */}
@@ -42,7 +42,7 @@ export default function Hero({ onBookCall }) {
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm sm:text-base transition-all shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:-translate-y-0.5"
               >
                 <Calendar className="w-5 h-5" />
-                <span>Book a Call</span>
+                <span>Book a Meeting</span>
               </button>
 
               <a
@@ -53,39 +53,21 @@ export default function Hero({ onBookCall }) {
                 <ArrowRight className="w-4 h-4 text-slate-400" />
               </a>
             </div>
-
-            {/* Quick Metrics / Trust Highlights */}
-            <div className="pt-6 grid grid-cols-3 gap-4 border-t border-slate-800/80 max-w-xl mx-auto lg:mx-0">
-              <div className="text-left">
-                <div className="text-xl sm:text-2xl font-bold text-white font-mono">100%</div>
-                <div className="text-xs text-slate-400">White-Label Ready</div>
-              </div>
-              <div className="text-left">
-                <div className="text-xl sm:text-2xl font-bold text-emerald-400 font-mono">&lt;24h</div>
-                <div className="text-xs text-slate-400">Response Guarantee</div>
-              </div>
-              <div className="text-left">
-                <div className="text-xl sm:text-2xl font-bold text-cyan-400 font-mono">Full-Stack</div>
-                <div className="text-xs text-slate-400">Backend & API Focus</div>
-              </div>
-            </div>
-
           </div>
 
           {/* Right Column: Visual Dual-Audience Feature Card */}
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
-              
+
               {/* Outer Card with Glassmorphism */}
               <div className="glass-panel rounded-2xl p-6 shadow-2xl relative z-10 border border-slate-800/90 bg-slate-900/80">
-                
+
                 <div className="flex items-center justify-between pb-4 mb-4 border-b border-slate-800">
                   <div className="flex items-center gap-2">
                     <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
                     <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
                     <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
                   </div>
-                  <span className="text-xs font-mono text-slate-400">devstudio.app // technical-partner</span>
                 </div>
 
                 {/* Audience 1: Freelancer Card */}
@@ -100,7 +82,6 @@ export default function Hero({ onBookCall }) {
                         <p className="text-xs text-slate-400">Designers, Developers & Marketers</p>
                       </div>
                     </div>
-                    <span className="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold">Tech Partner</span>
                   </div>
                   <div className="mt-3 grid grid-cols-2 gap-2 text-[11px] text-slate-300">
                     <div className="flex items-center gap-1.5">
@@ -122,11 +103,10 @@ export default function Hero({ onBookCall }) {
                         <Building2 className="w-5 h-5" />
                       </div>
                       <div>
-                        <h4 className="text-sm font-bold text-white">For Creative & Digital Agencies</h4>
-                        <p className="text-xs text-slate-400">Web, Marketing & Design Studios</p>
+                        <h4 className="text-sm font-bold text-white">For Businesses</h4>
+                        <p className="text-xs text-slate-400">Restaurants, Shops, Cafes & More</p>
                       </div>
                     </div>
-                    <span className="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-bold">White-Label</span>
                   </div>
                   <div className="mt-3 grid grid-cols-2 gap-2 text-[11px] text-slate-300">
                     <div className="flex items-center gap-1.5">
@@ -142,7 +122,6 @@ export default function Hero({ onBookCall }) {
 
                 {/* Interactive Tech Tags */}
                 <div className="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-                  <span className="font-mono text-[11px]">Behind-the-Scenes Technical Engineering</span>
                   <a href="#who-i-help" className="text-emerald-400 hover:underline flex items-center gap-1 text-xs">
                     <span>How I Help</span>
                     <ExternalLink className="w-3 h-3" />

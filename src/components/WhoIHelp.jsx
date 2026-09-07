@@ -5,7 +5,7 @@ export default function WhoIHelp({ onBookCall }) {
   return (
     <section id="who-i-help" className="py-20 md:py-28 relative bg-slate-950/60 border-y border-slate-800/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
@@ -13,7 +13,7 @@ export default function WhoIHelp({ onBookCall }) {
             <span>Technical Partner Focus</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Engineering Support for <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Freelancers & Agencies</span>
+            Engineering Support for <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Freelancers & Businesses</span>
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
             Instead of managing client projects alone, leverage a dedicated software developer to build, improve, automate, and maintain technical solutions for you and your clients.
@@ -22,11 +22,11 @@ export default function WhoIHelp({ onBookCall }) {
 
         {/* Two-Column Split Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          
+
           {/* Column 1: For Freelancers */}
           <div className="glass-panel rounded-2xl p-6 sm:p-8 relative overflow-hidden group hover:border-emerald-500/40 transition-all">
             <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-bl-full pointer-events-none group-hover:bg-emerald-500/10 transition-colors"></div>
-            
+
             <div className="flex items-center justify-between mb-6">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
@@ -77,7 +77,7 @@ export default function WhoIHelp({ onBookCall }) {
 
           </div>
 
-          {/* Column 2: For Agencies */}
+          {/* Column 2: For Businesses  */}
           <div className="glass-panel rounded-2xl p-6 sm:p-8 relative overflow-hidden group hover:border-cyan-500/40 transition-all">
             <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/5 rounded-bl-full pointer-events-none group-hover:bg-cyan-500/10 transition-colors"></div>
 
@@ -87,23 +87,23 @@ export default function WhoIHelp({ onBookCall }) {
                   <Building className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">For Digital & Creative Agencies</h3>
-                  <p className="text-xs text-slate-400">Web, Marketing & Design Studios</p>
+                  <h3 className="text-xl font-bold text-white">For Businesses</h3>
+                  <p className="text-xs text-slate-400">Restaurants, Shops, Cafes & More</p>
                 </div>
               </div>
               <span className="px-3 py-1 rounded-full bg-slate-800 text-cyan-300 text-xs font-mono font-medium">
-                Agency Extension
+                White-Label
               </span>
             </div>
 
             <p className="text-slate-300 text-sm mb-6 leading-relaxed">
-              Expand your agency's service offerings and technical capacity instantly without the high overhead and risk of hiring full-time software developers.
+              Grow your business with custom software, modern websites, and automations. I help local and online businesses become more efficient and provide better service to their customers.
             </p>
 
             {/* Feature List */}
             <ul className="space-y-3 mb-8">
               {[
-                { title: 'Full Client Web Apps & Sites', desc: 'Custom frontend and backend web applications built to your specs.' },
+                { title: 'Web Applications & Sites', desc: 'Custom frontend and backend web applications built to your needs.' },
                 { title: 'Workflow & Tool Automation', desc: 'Automate repetitive workflows and connect client platforms.' },
                 { title: 'Reliable Technical Coverage', desc: 'Dedicated technical support when client projects become complex.' },
                 { title: 'Scalable On-Demand Capacity', desc: 'White-label development partner for individual builds or retainers.' },
@@ -124,7 +124,7 @@ export default function WhoIHelp({ onBookCall }) {
                 onClick={onBookCall}
                 className="inline-flex items-center gap-2 text-xs font-bold text-cyan-400 hover:text-cyan-300 group-hover:translate-x-1 transition-all"
               >
-                <span>Expand Agency Offerings</span>
+                <span>Grow Your Business</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
